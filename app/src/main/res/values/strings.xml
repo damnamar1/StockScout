@@ -1,0 +1,35 @@
+<resources>
+    <string name="app_name">StockScout</string>
+
+    <!-- Home -->
+    <string name="search_hint">Search by item code or alias…</string>
+    <string name="scan_barcode">Scan barcode</string>
+    <string name="no_items">No items found</string>
+    <string name="pending_count">⏳ %d pending</string>
+    <string name="alias_count">%d aliases</string>
+
+    <!-- Splash -->
+    <string name="syncing">Syncing items…</string>
+    <string name="sync_error">Sync failed: %s</string>
+
+    <!-- Scanner -->
+    <string name="scan_prompt">Aim camera at a barcode</string>
+    <string name="cancel">Cancel</string>
+    <string name="camera_permission_denied">Camera permission is required to scan barcodes</string>
+    <string name="camera_error">Could not start camera</string>
+
+    <!-- Detail -->
+    <string name="detail_title">Item Detail</string>
+    <string name="item_not_found">Item not found</string>
+    <string name="aliases_label">Aliases</string>
+    <string name="pick_action">PICK (−1)</string>
+    <string name="out_of_stock">Out of Stock</string>
+    <string name="pick_success">Pick recorded. Syncing…</string>
+    <string name="uom_label">UoM: %s</string>
+    <string name="qty_label">On-hand: %d</string>
+
+    <!-- Sync status chips -->
+    <string name="sync_pending">⏳ Pending sync</string>
+    <string name="sync_synced">✓ Synced</string>
+    <string name="sync_failed">⚠ Sync failed</string>
+</resources>
